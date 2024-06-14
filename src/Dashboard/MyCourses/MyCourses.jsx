@@ -34,7 +34,7 @@ const MyCourses = () => {
 
     const handleEdit = (courseId) => {
         console.log(`Edit course ${courseId}`);
-        // Implement edit functionality
+        
     };
 
     const handleDelete = async (courseId) => {
@@ -75,7 +75,7 @@ const MyCourses = () => {
                     <Button onClick={() => handleEdit(record.id)} style={{ marginRight: 8 }}>
                         Edit
                     </Button>
-                    <Button onClick={() => handleDelete(record.id)} type="primary" danger>
+                    <Button onClick={() => handleDelete(record._id)} type="primary" danger>
                         Delete
                     </Button>
                 </span>
