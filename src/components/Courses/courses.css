@@ -1,0 +1,25 @@
+.ant-card {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ant-card-cover img {
+    object-fit: cover;
+    height: 200px;
+}
+
+.ant-card-meta-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.ant-card-meta-description {
+    font-size: 1em;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .ant-card-cover img {
+        height: 150px;
+    }
+}

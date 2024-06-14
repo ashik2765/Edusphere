@@ -1,0 +1,24 @@
+.desktop-menu {
+    display: none;
+  }
+  
+  .desktop-buttons {
+    display: none;
+  }
+  
+  .mobile-menu {
+    display: flex;
+  }
+  
+  @media (min-width: 768px) {
+    .desktop-menu {
+      display: flex;
+    }
+    .desktop-buttons {
+      display: block;
+    }
+    .mobile-menu {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,9 @@
+.dashboard-container {
+    padding: 24px;
+}
+
+.dashboard-container h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
